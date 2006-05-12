@@ -1,8 +1,9 @@
 %define		_release	r1849
-Summary:	This Python package is a random collection of WSGI modules
+Summary:	Random collection of WSGI modules
+Summary(pl):	Zestaw ró¿nych modu³ów WSGI
 Name:		python-flup
 Version:	0.5
-Release:	0.%{_release}1
+Release:	0.%{_release}.1
 Group:		Development/Languages/Python
 License:	X11/MIT
 Source0:	http://www.saddi.com/software/flup/dist/flup-%{_release}.tar.gz 
@@ -17,6 +18,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This Python package is a random collection of WSGI modules.
+
+%description -l pl
+Ten pakiet Pythona jest zestawem ró¿nych modu³ów WSGI
 
 %prep
 %setup -q -n flup-%{_release}
