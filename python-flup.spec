@@ -1,6 +1,6 @@
 %define		_release	r1849
 Summary:	Random collection of WSGI modules
-Summary(pl.UTF-8):   Zestaw różnych modułów WSGI
+Summary(pl.UTF-8):	Zestaw różnych modułów WSGI
 Name:		python-flup
 Version:	0.5
 Release:	0.%{_release}.1
