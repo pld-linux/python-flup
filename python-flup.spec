@@ -1,16 +1,16 @@
-%define		_release	r2311
 %define		_realname	flup
 Summary:	Random collection of WSGI modules
 Summary(pl.UTF-8):	Zestaw różnych modułów WSGI
 Name:		python-%{_realname}
-Version:	0.5
-Release:	0.%{_release}.1
+Version:	1.0
+Release:	0.1
 Group:		Development/Languages/Python
 License:	X11/MIT
-Source0:	http://www.saddi.com/software/flup/dist/%{_realname}-%{_release}.tar.gz 
-# Source0-md5:	c54e0bc5877f1b612e8ac99a061598d4
+Source0:	http://www.saddi.com/software/flup/dist/%{_realname}-%{version}.tar.gz 
+# Source0-md5:	530801fe835fd9a680457e443eb95578
 URL:		http://www.saddi.com/software/flup/
 BuildRequires:	python-devel
+BuildRequires:	rpm-pythonprov
 BuildRequires:	python-setuptools >= 0.6-0.a9.1
 %pyrequires_eq  python-modules
 Requires:	python-elementtree
