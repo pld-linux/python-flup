@@ -3,7 +3,7 @@ Summary:	Random collection of WSGI modules
 Summary(pl.UTF-8):	Zestaw różnych modułów WSGI
 Name:		python-%{_realname}
 Version:	1.0.2
-Release:	1
+Release:	2
 Group:		Development/Languages/Python
 License:	X11/MIT
 Source0:	http://www.saddi.com/software/flup/dist/%{_realname}-%{version}.tar.gz 
