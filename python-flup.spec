@@ -9,6 +9,7 @@ License:	X11/MIT
 Source0:	http://www.saddi.com/software/flup/dist/%{_realname}-%{version}.tar.gz 
 # Source0-md5:	24dad7edc5ada31dddd49456ee8d5254
 URL:		http://www.saddi.com/software/flup/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
 BuildRequires:	python-setuptools >= 0.6-0.a9.1
